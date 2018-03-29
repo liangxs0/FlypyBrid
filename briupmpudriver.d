@@ -1,0 +1,14 @@
+.\briupmpudriver.o: hardware\src\briupMPUDriver.c
+.\briupmpudriver.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\briupmpudriver.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\briupmpudriver.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\briupmpudriver.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+.\briupmpudriver.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+.\briupmpudriver.o: .\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\briupmpudriver.o: .\boot\CMSIS\CM3\CoreSupport\core_cm3.h
+.\briupmpudriver.o: .\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\briupmpudriver.o: .\hardware\inc\inv_mpu.h
+.\briupmpudriver.o: .\hardware\inc\briupMPUDriver.h
+.\briupmpudriver.o: .\hardware\inc\dmpKey.h
+.\briupmpudriver.o: .\hardware\inc\dmpmap.h
+.\briupmpudriver.o: .\hardware\inc\briupDelay.h
