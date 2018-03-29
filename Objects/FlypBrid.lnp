@@ -1,0 +1,11 @@
+--cpu Cortex-M3
+".\objects\main.o"
+".\objects\startup_stm32f10x_hd.o"
+".\objects\jpstm32_exti.o"
+".\objects\jpstm32_gpio.o"
+".\objects\jpstm32_nvic.o"
+".\objects\jpstm32_sysclk.o"
+--strict --scatter ".\Objects\FlypBrid.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\FlypBrid.map" -o .\Objects\FlypBrid.axf
