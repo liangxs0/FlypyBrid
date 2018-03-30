@@ -7,7 +7,7 @@
 
   <Targets>
     <Target>
-      <TargetName>Target 1</TargetName>
+      <TargetName>FLypyBorid</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>
@@ -149,7 +149,7 @@
             <RestoreSysVw>1</RestoreSysVw>
           </Target>
           <RunDebugAfterBuild>0</RunDebugAfterBuild>
-          <TargetSelection>1</TargetSelection>
+          <TargetSelection>6</TargetSelection>
           <SimDlls>
             <CpuDll></CpuDll>
             <CpuDllArguments></CpuDllArguments>
@@ -163,7 +163,7 @@
             <PeripheralDll></PeripheralDll>
             <PeripheralDllArguments></PeripheralDllArguments>
             <InitializationFile></InitializationFile>
-            <Driver>BIN\UL2CM3.DLL</Driver>
+            <Driver>Segger\JL2CM3.dll</Driver>
           </TargetDlls>
         </DebugOption>
         <Utilities>
@@ -295,17 +295,17 @@
                 <Size>0x0</Size>
               </XRAM>
               <OCR_RVCT1>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT1>
               <OCR_RVCT2>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT2>
               <OCR_RVCT3>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT3>
@@ -315,7 +315,7 @@
                 <Size>0x80000</Size>
               </OCR_RVCT4>
               <OCR_RVCT5>
-                <Type>0</Type>
+                <Type>1</Type>
                 <StartAddress>0x0</StartAddress>
                 <Size>0x0</Size>
               </OCR_RVCT5>
@@ -369,7 +369,7 @@
               <MiscControls></MiscControls>
               <Define></Define>
               <Undefine></Undefine>
-              <IncludePath></IncludePath>
+              <IncludePath>.\app\inc;.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x;.\boot\STM32F10x_StdPeriph_Driver\inc;.\boot\CMSIS\CM3\CoreSupport;.\hardware\inc</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -410,7 +410,195 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>Source Group 1</GroupName>
+          <GroupName>app</GroupName>
+          <Files>
+            <File>
+              <FileName>main.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\app\main.c</FilePath>
+            </File>
+            <File>
+              <FileName>stm32f10x_conf.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\app\inc\stm32f10x_conf.h</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>boot</GroupName>
+          <Files>
+            <File>
+              <FileName>startup_stm32f10x_hd.s</FileName>
+              <FileType>2</FileType>
+              <FilePath>.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_hd.s</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>CMSIS</GroupName>
+          <Files>
+            <File>
+              <FileName>core_cm3.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\boot\CMSIS\CM3\CoreSupport\core_cm3.c</FilePath>
+            </File>
+            <File>
+              <FileName>system_stm32f10x.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>hardware</GroupName>
+          <Files>
+            <File>
+              <FileName>24C04.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\24C04.c</FilePath>
+            </File>
+            <File>
+              <FileName>briupBasePeriph.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\briupBasePeriph.c</FilePath>
+            </File>
+            <File>
+              <FileName>briupDelay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\briupDelay.c</FilePath>
+            </File>
+            <File>
+              <FileName>briupFSMC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\briupFSMC.c</FilePath>
+            </File>
+            <File>
+              <FileName>briupKeyboard.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\briupKeyboard.c</FilePath>
+            </File>
+            <File>
+              <FileName>briupLCD.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\briupLCD.c</FilePath>
+            </File>
+            <File>
+              <FileName>briupMPU6050.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\briupMPU6050.c</FilePath>
+            </File>
+            <File>
+              <FileName>briupMPUDriver.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\briupMPUDriver.c</FilePath>
+            </File>
+            <File>
+              <FileName>briupNVIC.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\briupNVIC.c</FilePath>
+            </File>
+            <File>
+              <FileName>briupTIM2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\briupTIM2.c</FilePath>
+            </File>
+            <File>
+              <FileName>briupUsart1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\briupUsart1.c</FilePath>
+            </File>
+            <File>
+              <FileName>inv_mpu.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\hardware\src\inv_mpu.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Image</GroupName>
+          <Files>
+            <File>
+              <FileName>test.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\test.c</FilePath>
+            </File>
+            <File>
+              <FileName>tag.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\tag.c</FilePath>
+            </File>
+            <File>
+              <FileName>start.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\start.c</FilePath>
+            </File>
+            <File>
+              <FileName>scoreboard.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\scoreboard.c</FilePath>
+            </File>
+            <File>
+              <FileName>pip_up.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\pip_up.c</FilePath>
+            </File>
+            <File>
+              <FileName>pip_down.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\pip_down.c</FilePath>
+            </File>
+            <File>
+              <FileName>get_ready.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\get_ready.c</FilePath>
+            </File>
+            <File>
+              <FileName>garde.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\garde.c</FilePath>
+            </File>
+            <File>
+              <FileName>game_over.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\game_over.c</FilePath>
+            </File>
+            <File>
+              <FileName>game_logo.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\game_logo.c</FilePath>
+            </File>
+            <File>
+              <FileName>borid_up.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\borid_up.c</FilePath>
+            </File>
+            <File>
+              <FileName>borid_move.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\borid_move.c</FilePath>
+            </File>
+            <File>
+              <FileName>borid_down.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\borid_down.c</FilePath>
+            </File>
+            <File>
+              <FileName>board2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\board2.c</FilePath>
+            </File>
+            <File>
+              <FileName>board1.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Image\board1.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>devices</GroupName>
+        </Group>
+        <Group>
+          <GroupName>system</GroupName>
         </Group>
       </Groups>
     </Target>

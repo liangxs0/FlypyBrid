@@ -1,4 +1,5 @@
 .\main.o: app\main.c
+.\main.o: .\app\inc\main.h
 .\main.o: .\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
 .\main.o: .\boot\CMSIS\CM3\CoreSupport\core_cm3.h
 .\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
@@ -17,3 +18,4 @@
 .\main.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
 .\main.o: .\hardware\inc\inv_mpu.h
 .\main.o: .\hardware\inc\briupMPUDriver.h
+.\main.o: .\hardware\inc\IC24C04.h
