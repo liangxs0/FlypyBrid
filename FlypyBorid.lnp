@@ -1,5 +1,7 @@
 --cpu Cortex-M3
 ".\main.o"
+".\draw_borid.o"
+".\draw_map.o"
 ".\startup_stm32f10x_hd.o"
 ".\core_cm3.o"
 ".\system_stm32f10x.o"

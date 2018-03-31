@@ -15,4 +15,6 @@
 #include "briupMPU6050.h"
 #include "IC24C04.h"
 
+#include "draw_borid.h"
+
 #endif

@@ -422,6 +422,31 @@
               <FileType>5</FileType>
               <FilePath>.\app\inc\stm32f10x_conf.h</FilePath>
             </File>
+            <File>
+              <FileName>main.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\app\inc\main.h</FilePath>
+            </File>
+            <File>
+              <FileName>draw_borid.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\app\inc\draw_borid.h</FilePath>
+            </File>
+            <File>
+              <FileName>draw_map.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\app\inc\draw_map.h</FilePath>
+            </File>
+            <File>
+              <FileName>draw_borid.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\app\draw_borid.c</FilePath>
+            </File>
+            <File>
+              <FileName>draw_map.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\app\draw_map.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>

@@ -1,0 +1,16 @@
+.\draw_map.o: app\draw_map.c
+.\draw_map.o: .\app\inc\draw_map.h
+.\draw_map.o: .\hardware\inc\briupLCD.h
+.\draw_map.o: .\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\draw_map.o: .\boot\CMSIS\CM3\CoreSupport\core_cm3.h
+.\draw_map.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\draw_map.o: .\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\draw_map.o: .\hardware\inc\briupDelay.h
+.\draw_map.o: .\hardware\inc\briupUsart.h
+.\draw_map.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\draw_map.o: .\hardware\inc\briupFsmc.h
+.\draw_map.o: .\hardware\inc\briuoNVIC.h
+.\draw_map.o: .\hardware\inc\briupMPU6050.h
+.\draw_map.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+.\draw_map.o: .\hardware\inc\inv_mpu.h
+.\draw_map.o: .\hardware\inc\briupMPUDriver.h

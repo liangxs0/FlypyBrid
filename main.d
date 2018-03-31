@@ -19,3 +19,4 @@
 .\main.o: .\hardware\inc\inv_mpu.h
 .\main.o: .\hardware\inc\briupMPUDriver.h
 .\main.o: .\hardware\inc\IC24C04.h
+.\main.o: .\app\inc\draw_borid.h

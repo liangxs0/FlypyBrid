@@ -1,6 +1,6 @@
 Dependencies for Project 'FlypyBorid', Target 'FLypyBorid': (DO NOT MODIFY !)
-F (.\app\main.c)(0x5ABDF1B1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\app\inc -I.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\boot\STM32F10x_StdPeriph_Driver\inc -I.\boot\CMSIS\CM3\CoreSupport -I.\hardware\inc-I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
-I (.\app\inc\main.h)(0x5ABDF1A7)
+F (.\app\main.c)(0x5ABDF7C0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\app\inc -I.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\boot\STM32F10x_StdPeriph_Driver\inc -I.\boot\CMSIS\CM3\CoreSupport -I.\hardware\inc-I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (.\app\inc\main.h)(0x5ABDF7AA)
 I (.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4D783CB4)
 I (.\boot\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
 I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
@@ -20,8 +20,42 @@ I (D:\Keil5\ARM\ARMCC\include\math.h)(0x54C245B8)
 I (.\hardware\inc\inv_mpu.h)(0x59AD5C09)
 I (.\hardware\inc\briupMPUDriver.h)(0x59AD5B32)
 I (.\hardware\inc\IC24C04.h)(0x59B643FA)
+I (.\app\inc\draw_borid.h)(0x5ABDF7C0)
 F (.\app\inc\stm32f10x_conf.h)(0x4D99A59E)()
-F (.\app\inc\main.h)(0x5ABDF1A7)()
+F (.\app\inc\main.h)(0x5ABDF7AA)()
+F (.\app\inc\draw_borid.h)(0x5ABDF7C0)()
+F (.\app\inc\draw_map.h)(0x5ABF0821)()
+F (.\app\draw_borid.c)(0x5ABDF7C0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\app\inc -I.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\boot\STM32F10x_StdPeriph_Driver\inc -I.\boot\CMSIS\CM3\CoreSupport -I.\hardware\inc-I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\draw_borid.o --omf_browse .\draw_borid.crf --depend .\draw_borid.d)
+I (.\hardware\inc\briupLCD.h)(0x5ABCB10E)
+I (.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4D783CB4)
+I (.\boot\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (.\hardware\inc\briupDelay.h)(0x59AE6151)
+I (.\hardware\inc\briupUsart.h)(0x59A658AF)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (.\hardware\inc\briupFsmc.h)(0x59AA16AC)
+I (.\hardware\inc\briuoNVIC.h)(0x59A654A7)
+I (.\hardware\inc\briupMPU6050.h)(0x59AD66B2)
+I (D:\Keil5\ARM\ARMCC\include\math.h)(0x54C245B8)
+I (.\hardware\inc\inv_mpu.h)(0x59AD5C09)
+I (.\hardware\inc\briupMPUDriver.h)(0x59AD5B32)
+F (.\app\draw_map.c)(0x5ABF0820)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\app\inc -I.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\boot\STM32F10x_StdPeriph_Driver\inc -I.\boot\CMSIS\CM3\CoreSupport -I.\hardware\inc-I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\draw_map.o --omf_browse .\draw_map.crf --depend .\draw_map.d)
+I (.\app\inc\draw_map.h)(0x5ABF0821)
+I (.\hardware\inc\briupLCD.h)(0x5ABCB10E)
+I (.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x4D783CB4)
+I (.\boot\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4D523B58)
+I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
+I (.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4D783CAA)
+I (.\hardware\inc\briupDelay.h)(0x59AE6151)
+I (.\hardware\inc\briupUsart.h)(0x59A658AF)
+I (D:\Keil5\ARM\ARMCC\include\stdio.h)(0x54C245B8)
+I (.\hardware\inc\briupFsmc.h)(0x59AA16AC)
+I (.\hardware\inc\briuoNVIC.h)(0x59A654A7)
+I (.\hardware\inc\briupMPU6050.h)(0x59AD66B2)
+I (D:\Keil5\ARM\ARMCC\include\math.h)(0x54C245B8)
+I (.\hardware\inc\inv_mpu.h)(0x59AD5C09)
+I (.\hardware\inc\briupMPUDriver.h)(0x59AD5B32)
 F (.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_hd.s)(0x59A3F060)(--cpu Cortex-M3 -g --apcs=interwork -I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "STM32F10X_HD SETA 1"--list .\startup_stm32f10x_hd.lst --xref -o .\startup_stm32f10x_hd.o --depend .\startup_stm32f10x_hd.d)
 F (.\boot\CMSIS\CM3\CoreSupport\core_cm3.c)(0x4C0C587E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\app\inc -I.\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I.\boot\STM32F10x_StdPeriph_Driver\inc -I.\boot\CMSIS\CM3\CoreSupport -I.\hardware\inc-I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\core_cm3.o --omf_browse .\core_cm3.crf --depend .\core_cm3.d)
 I (D:\Keil5\ARM\ARMCC\include\stdint.h)(0x54C245B8)
