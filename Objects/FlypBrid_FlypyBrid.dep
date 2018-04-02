@@ -1,55 +1,0 @@
-Dependencies for Project 'FlypBrid', Target 'FlypyBrid': (DO NOT MODIFY !)
-F (.\app\main.c)(0x5ABC430C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\system -I.\devices-I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (.\system\stm32f10x_map.h)(0x57F84A32)
-I (.\system\stm32f10x_conf.h)(0x57F84A32)
-I (.\system\stm32f10x_type.h)(0x57F84A32)
-I (.\system\cortexm3_macro.h)(0x57F84A32)
-F (.\app\main.h)(0x5ABC41AC)()
-F (.\boot\startup_stm32f10x_hd.s)(0x55D15538)(--cpu Cortex-M3 -g --apcs=interwork -I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include--pd "__UVISION_VERSION SETA 515" --pd "STM32F10X_HD SETA 1"--list .\listings\startup_stm32f10x_hd.lst --xref -o .\objects\startup_stm32f10x_hd.o --depend .\objects\startup_stm32f10x_hd.d)
-F (.\system\jpstm32_exti.c)(0x5937F672)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\system -I.\devices-I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\jpstm32_exti.o --omf_browse .\objects\jpstm32_exti.crf --depend .\objects\jpstm32_exti.d)
-I (system\jpstm32_exti.h)(0x57F84A32)
-I (system\jpstm32_common.h)(0x57F84A32)
-I (system\stm32f10x_map.h)(0x57F84A32)
-I (system\stm32f10x_conf.h)(0x57F84A32)
-I (system\stm32f10x_type.h)(0x57F84A32)
-I (system\cortexm3_macro.h)(0x57F84A32)
-I (system\stm32f10x_nvic.h)(0x57F84A32)
-I (system\jpstm32_gpio.h)(0x57F84A32)
-I (system\jpstm32_nvic.h)(0x57F84A32)
-I (system\jpstm32_sysclk.h)(0x57F84A32)
-F (.\system\jpstm32_gpio.c)(0x57F84A32)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\system -I.\devices-I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\jpstm32_gpio.o --omf_browse .\objects\jpstm32_gpio.crf --depend .\objects\jpstm32_gpio.d)
-I (system\jpstm32_gpio.h)(0x57F84A32)
-I (system\jpstm32_common.h)(0x57F84A32)
-I (system\stm32f10x_map.h)(0x57F84A32)
-I (system\stm32f10x_conf.h)(0x57F84A32)
-I (system\stm32f10x_type.h)(0x57F84A32)
-I (system\cortexm3_macro.h)(0x57F84A32)
-I (system\stm32f10x_nvic.h)(0x57F84A32)
-F (.\system\jpstm32_nvic.c)(0x57F84A32)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\system -I.\devices-I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\jpstm32_nvic.o --omf_browse .\objects\jpstm32_nvic.crf --depend .\objects\jpstm32_nvic.d)
-I (system\jpstm32_nvic.h)(0x57F84A32)
-I (system\jpstm32_common.h)(0x57F84A32)
-I (system\stm32f10x_map.h)(0x57F84A32)
-I (system\stm32f10x_conf.h)(0x57F84A32)
-I (system\stm32f10x_type.h)(0x57F84A32)
-I (system\cortexm3_macro.h)(0x57F84A32)
-I (system\stm32f10x_nvic.h)(0x57F84A32)
-F (.\system\jpstm32_sysclk.c)(0x59223FB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork --split_sections -I.\system -I.\devices-I G:\keil5_work\flypybird\RTE-I D:\Keil5\Keil\STM32F1xx_DFP\2.0.0\Device\Include-I D:\Keil5\ARM\CMSIS\Include-D__UVISION_VERSION="515" -DSTM32F10X_HD-o .\objects\jpstm32_sysclk.o --omf_browse .\objects\jpstm32_sysclk.crf --depend .\objects\jpstm32_sysclk.d)
-I (system\jpstm32_sysclk.h)(0x57F84A32)
-I (system\jpstm32_common.h)(0x57F84A32)
-I (system\stm32f10x_map.h)(0x57F84A32)
-I (system\stm32f10x_conf.h)(0x57F84A32)
-I (system\stm32f10x_type.h)(0x57F84A32)
-I (system\cortexm3_macro.h)(0x57F84A32)
-I (system\stm32f10x_nvic.h)(0x57F84A32)
-I (system\jpstm32_nvic.h)(0x57F84A32)
-F (.\system\cortexm3_macro.h)(0x57F84A32)()
-F (.\system\jpstm32_common.h)(0x57F84A32)()
-F (.\system\jpstm32_exti.h)(0x57F84A32)()
-F (.\system\jpstm32_gpio.h)(0x57F84A32)()
-F (.\system\jpstm32_nvic.h)(0x57F84A32)()
-F (.\system\jpstm32_sysclk.h)(0x57F84A32)()
-F (.\system\stm32f10x_conf.h)(0x57F84A32)()
-F (.\system\stm32f10x_it.h)(0x57F84A32)()
-F (.\system\stm32f10x_map.h)(0x57F84A32)()
-F (.\system\stm32f10x_nvic.h)(0x57F84A32)()
-F (.\system\stm32f10x_type.h)(0x57F84A32)()

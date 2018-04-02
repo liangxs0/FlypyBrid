@@ -1,0 +1,13 @@
+.\objects\inv_mpu.o: ..\devices\src\inv_mpu.c
+.\objects\inv_mpu.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\inv_mpu.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\inv_mpu.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\inv_mpu.o: D:\Keil5\ARM\ARMCC\Bin\..\include\string.h
+.\objects\inv_mpu.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h
+.\objects\inv_mpu.o: ..\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\objects\inv_mpu.o: ..\boot\CMSIS\CM3\CoreSupport\core_cm3.h
+.\objects\inv_mpu.o: ..\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\objects\inv_mpu.o: ..\devices\inc\inv_mpu.h
+.\objects\inv_mpu.o: ..\devices\inc\briupMPUDriver.h
+.\objects\inv_mpu.o: ..\devices\inc\briupDelay.h
+.\objects\inv_mpu.o: ..\devices\inc\Time.h

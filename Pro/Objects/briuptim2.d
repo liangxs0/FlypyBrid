@@ -1,0 +1,11 @@
+.\objects\briuptim2.o: ..\devices\src\briupTIM2.c
+.\objects\briuptim2.o: ..\devices\inc\briupTIM2.h
+.\objects\briuptim2.o: ..\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\objects\briuptim2.o: ..\boot\CMSIS\CM3\CoreSupport\core_cm3.h
+.\objects\briuptim2.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\briuptim2.o: ..\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\objects\briuptim2.o: ..\devices\inc\briupUsart.h
+.\objects\briuptim2.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\briuptim2.o: ..\devices\inc\briupBasePeriph.h
+.\objects\briuptim2.o: ..\devices\inc\briupDelay.h
+.\objects\briuptim2.o: ..\devices\inc\briupNVIC.h

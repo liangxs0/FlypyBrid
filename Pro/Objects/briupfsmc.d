@@ -1,0 +1,10 @@
+.\objects\briupfsmc.o: ..\devices\src\briupFSMC.c
+.\objects\briupfsmc.o: ..\devices\inc\briupFSMC.h
+.\objects\briupfsmc.o: ..\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\objects\briupfsmc.o: ..\boot\CMSIS\CM3\CoreSupport\core_cm3.h
+.\objects\briupfsmc.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\briupfsmc.o: ..\boot\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\objects\briupfsmc.o: ..\devices\inc\briupNVIC.h
+.\objects\briupfsmc.o: ..\devices\inc\briupDelay.h
+.\objects\briupfsmc.o: ..\devices\inc\briupUsart.h
+.\objects\briupfsmc.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
