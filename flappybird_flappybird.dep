@@ -1,0 +1,286 @@
+Dependencies for Project 'flappybird', Target 'flappybird': (DO NOT MODIFY !)
+F (.\app\main.c)(0x568DDEB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\main.o --omf_browse .\obj\main.crf --depend .\obj\main.d)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_lcd.h)(0x54BF5377)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (C:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_sysclk.h)(0x54228286)
+I (E:\WorkSpace\stm32_test\core\jpstm32_usart.h)(0x542A1C4A)
+I (E:\WorkSpace\stm32_test\core\jpstm32_nvic.h)(0x5427AD32)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_key.h)(0x5278F65C)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_beep.h)(0x54250CDC)
+I (E:\WorkSpace\stm32_test\devices\touch.h)(0x54C1BE19)
+I (E:\WorkSpace\stm32_test\devices\led.h)(0x54D1D5A1)
+I (E:\WorkSpace\stm32_test\app\game.h)(0x568B8CB9)
+I (E:\WorkSpace\stm32_test\devices\dma.h)(0x54B77946)
+I (E:\WorkSpace\stm32_test\devices\timer.h)(0x54BDB783)
+I (E:\WorkSpace\stm32_test\devices\adc.h)(0x54D2D0E6)
+I (E:\WorkSpace\stm32_test\app\Font_Num.h)(0x54BF5513)
+I (E:\WorkSpace\stm32_test\devices\24cxx.h)(0x54C6ED2E)
+I (E:\WorkSpace\stm32_test\devices\fsmc.h)(0x5580E8EE)
+F (.\app\game.c)(0x5683D613)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\game.o --omf_browse .\obj\game.crf --depend .\obj\game.d)
+I (E:\WorkSpace\stm32_test\app\game.h)(0x568B8CB9)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_lcd.h)(0x54BF5377)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (C:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (E:\WorkSpace\stm32_test\core\jpstm32_usart.h)(0x542A1C4A)
+I (E:\WorkSpace\stm32_test\core\jpstm32_nvic.h)(0x5427AD32)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (E:\WorkSpace\stm32_test\core\jpstm32_sysclk.h)(0x54228286)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_key.h)(0x5278F65C)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_beep.h)(0x54250CDC)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+I (E:\WorkSpace\stm32_test\devices\dma.h)(0x54B77946)
+I (E:\WorkSpace\stm32_test\devices\touch.h)(0x54C1BE19)
+I (E:\WorkSpace\stm32_test\devices\timer.h)(0x54BDB783)
+I (E:\WorkSpace\stm32_test\devices\adc.h)(0x54D2D0E6)
+I (E:\WorkSpace\stm32_test\app\Font_Num.h)(0x54BF5513)
+I (E:\WorkSpace\stm32_test\devices\24cxx.h)(0x54C6ED2E)
+I (E:\WorkSpace\stm32_test\devices\fsmc.h)(0x5580E8EE)
+I (E:\WorkSpace\stm32_test\devices\led.h)(0x54D1D5A1)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_background.c)(0x54C9FB32)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_logo.c)(0x54C9F85F)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_button_play.c)(0x54C9F90D)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_button_stop.c)(0x54C9F931)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_bird_u.c)(0x54CB45A3)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_bird_m.c)(0x54CB4599)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_bird_d.c)(0x54CB4590)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_tag.c)(0x54C9F8DE)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_getstart.c)(0x54CAD98A)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_column_bottom.c)(0x54CB293D)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_column_middle.c)(0x54CB2949)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_gameover.c)(0x54CAD8EE)
+I (E:\WorkSpace\stm32_test\app\RES\Pic\flappybird_score_board.c)(0x54CAFC30)
+F (.\app\Font_Num.c)(0x54CEEB23)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\font_num.o --omf_browse .\obj\font_num.crf --depend .\obj\font_num.d)
+I (E:\WorkSpace\stm32_test\app\Font_Num.h)(0x54BF5513)
+I (E:\WorkSpace\stm32_test\app\game.h)(0x568B8CB9)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_lcd.h)(0x54BF5377)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (C:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (E:\WorkSpace\stm32_test\core\jpstm32_usart.h)(0x542A1C4A)
+I (E:\WorkSpace\stm32_test\core\jpstm32_nvic.h)(0x5427AD32)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (E:\WorkSpace\stm32_test\core\jpstm32_sysclk.h)(0x54228286)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_key.h)(0x5278F65C)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_beep.h)(0x54250CDC)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+I (E:\WorkSpace\stm32_test\devices\dma.h)(0x54B77946)
+I (E:\WorkSpace\stm32_test\devices\touch.h)(0x54C1BE19)
+I (E:\WorkSpace\stm32_test\devices\timer.h)(0x54BDB783)
+I (E:\WorkSpace\stm32_test\devices\adc.h)(0x54D2D0E6)
+I (E:\WorkSpace\stm32_test\devices\24cxx.h)(0x54C6ED2E)
+I (E:\WorkSpace\stm32_test\devices\fsmc.h)(0x5580E8EE)
+I (E:\WorkSpace\stm32_test\devices\led.h)(0x54D1D5A1)
+I (E:\WorkSpace\stm32_test\app\RES\Num\0_big.c)(0x53025CE8)
+I (E:\WorkSpace\stm32_test\app\RES\Num\0_small.c)(0x53025D04)
+I (E:\WorkSpace\stm32_test\app\RES\Num\1_big.c)(0x5302819A)
+I (E:\WorkSpace\stm32_test\app\RES\Num\1_small.c)(0x530281A6)
+I (E:\WorkSpace\stm32_test\app\RES\Num\2_big.c)(0x53025D2E)
+I (E:\WorkSpace\stm32_test\app\RES\Num\2_small.c)(0x53025D3E)
+I (E:\WorkSpace\stm32_test\app\RES\Num\3_big.c)(0x53025D4A)
+I (E:\WorkSpace\stm32_test\app\RES\Num\3_small.c)(0x53025D5A)
+I (E:\WorkSpace\stm32_test\app\RES\Num\4_big.c)(0x53025D68)
+I (E:\WorkSpace\stm32_test\app\RES\Num\4_small.c)(0x53025D74)
+I (E:\WorkSpace\stm32_test\app\RES\Num\5_big.c)(0x53025D7E)
+I (E:\WorkSpace\stm32_test\app\RES\Num\5_small.c)(0x53025D8A)
+I (E:\WorkSpace\stm32_test\app\RES\Num\6_big.c)(0x53025D94)
+I (E:\WorkSpace\stm32_test\app\RES\Num\6_small.c)(0x53025DA6)
+I (E:\WorkSpace\stm32_test\app\RES\Num\7_big.c)(0x53025DB4)
+I (E:\WorkSpace\stm32_test\app\RES\Num\7_small.c)(0x53025DBE)
+I (E:\WorkSpace\stm32_test\app\RES\Num\8_big.c)(0x53025DC6)
+I (E:\WorkSpace\stm32_test\app\RES\Num\8_small.c)(0x53025DD4)
+I (E:\WorkSpace\stm32_test\app\RES\Num\9_big.c)(0x53025DE4)
+I (E:\WorkSpace\stm32_test\app\RES\Num\9_small.c)(0x53025DF0)
+F (.\boot\startup_stm32f10x_hd.s)(0x5272881C)(--cpu Cortex-M3 -g --apcs=interwork -I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x--list .\lst\startup_stm32f10x_hd.lst --xref -o .\obj\startup_stm32f10x_hd.o --depend .\obj\startup_stm32f10x_hd.d)
+F (.\core\jpstm32_delay.c)(0x54C84D94)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\jpstm32_delay.o --omf_browse .\obj\jpstm32_delay.crf --depend .\obj\jpstm32_delay.d)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+F (.\core\jpstm32_gpio.c)(0x542508DE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\jpstm32_gpio.o --omf_browse .\obj\jpstm32_gpio.crf --depend .\obj\jpstm32_gpio.d)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+F (.\core\jpstm32_nvic.c)(0x542A1498)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\jpstm32_nvic.o --omf_browse .\obj\jpstm32_nvic.crf --depend .\obj\jpstm32_nvic.d)
+I (E:\WorkSpace\stm32_test\core\jpstm32_nvic.h)(0x5427AD32)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+F (.\core\jpstm32_sysclk.c)(0x5641A9B7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\jpstm32_sysclk.o --omf_browse .\obj\jpstm32_sysclk.crf --depend .\obj\jpstm32_sysclk.d)
+I (E:\WorkSpace\stm32_test\core\jpstm32_nvic.h)(0x5427AD32)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_sysclk.h)(0x54228286)
+F (.\core\jpstm32_usart.c)(0x5785AB27)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\jpstm32_usart.o --omf_browse .\obj\jpstm32_usart.crf --depend .\obj\jpstm32_usart.d)
+I (E:\WorkSpace\stm32_test\core\jpstm32_usart.h)(0x542A1C4A)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_nvic.h)(0x5427AD32)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+F (.\devices\jpstm32_lcd.c)(0x54C845C1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\jpstm32_lcd.o --omf_browse .\obj\jpstm32_lcd.crf --depend .\obj\jpstm32_lcd.d)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_lcd.h)(0x54BF5377)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (C:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_lcd_font.h)(0x544F33D8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_usart.h)(0x542A1C4A)
+I (E:\WorkSpace\stm32_test\core\jpstm32_nvic.h)(0x5427AD32)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+F (.\devices\fsmc.c)(0x5580E8F1)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\fsmc.o --omf_browse .\obj\fsmc.crf --depend .\obj\fsmc.d)
+I (E:\WorkSpace\stm32_test\devices\fsmc.h)(0x5580E8EE)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_usart.h)(0x542A1C4A)
+I (E:\WorkSpace\stm32_test\core\jpstm32_nvic.h)(0x5427AD32)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+F (.\devices\dma.c)(0x54BCA48D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\dma.o --omf_browse .\obj\dma.crf --depend .\obj\dma.d)
+I (E:\WorkSpace\stm32_test\devices\dma.h)(0x54B77946)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_usart.h)(0x542A1C4A)
+I (E:\WorkSpace\stm32_test\core\jpstm32_nvic.h)(0x5427AD32)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_lcd.h)(0x54BF5377)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (C:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+F (.\devices\led.c)(0x5641ABE0)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\led.o --omf_browse .\obj\led.crf --depend .\obj\led.d)
+I (E:\WorkSpace\stm32_test\devices\led.h)(0x54D1D5A1)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+F (.\devices\touch.c)(0x54C1E144)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\touch.o --omf_browse .\obj\touch.crf --depend .\obj\touch.d)
+I (E:\WorkSpace\stm32_test\devices\touch.h)(0x54C1BE19)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_lcd.h)(0x54BF5377)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (C:\ARM\ADSv1_2\INCLUDE\stdlib.h)(0x3BEB19E6)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+I (C:\ARM\ADSv1_2\INCLUDE\math.h)(0x3BEB19E6)
+F (.\devices\timer.c)(0x54BF4D15)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\timer.o --omf_browse .\obj\timer.crf --depend .\obj\timer.d)
+I (E:\WorkSpace\stm32_test\devices\timer.h)(0x54BDB783)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\devices\led.h)(0x54D1D5A1)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (E:\WorkSpace\stm32_test\core\jpstm32_usart.h)(0x542A1C4A)
+I (E:\WorkSpace\stm32_test\core\jpstm32_nvic.h)(0x5427AD32)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+F (.\devices\adc.c)(0x54D2D143)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\adc.o --omf_browse .\obj\adc.crf --depend .\obj\adc.d)
+I (E:\WorkSpace\stm32_test\devices\adc.h)(0x54D2D0E6)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+F (.\devices\jpstm32_key.c)(0x564444A4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\jpstm32_key.o --omf_browse .\obj\jpstm32_key.crf --depend .\obj\jpstm32_key.d)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_key.h)(0x5278F65C)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+F (.\devices\iic.c)(0x54C6EDA7)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\iic.o --omf_browse .\obj\iic.crf --depend .\obj\iic.d)
+I (E:\WorkSpace\stm32_test\devices\iic.h)(0x54C6ED69)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+F (.\devices\24cxx.c)(0x54C6ED4F)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\24cxx.o --omf_browse .\obj\24cxx.crf --depend .\obj\24cxx.d)
+I (E:\WorkSpace\stm32_test\devices\24cxx.h)(0x54C6ED2E)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\devices\iic.h)(0x54C6ED69)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_usart.h)(0x542A1C4A)
+I (E:\WorkSpace\stm32_test\core\jpstm32_nvic.h)(0x5427AD32)
+I (C:\ARM\ADSv1_2\INCLUDE\stdio.h)(0x3BEB19E6)
+F (.\devices\jpstm32_beep.c)(0x54250CDC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic-I D:\Keil\ARM\RV31\INC-I D:\Keil\ARM\CMSIS\Include-I D:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\obj\jpstm32_beep.o --omf_browse .\obj\jpstm32_beep.crf --depend .\obj\jpstm32_beep.d)
+I (E:\WorkSpace\stm32_test\devices\jpstm32_beep.h)(0x54250CDC)
+I (E:\WorkSpace\stm32_test\core\jpstm32_common.h)(0x54C6EE44)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_map.h)(0x54B8A4F5)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_conf.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_type.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\cortexm3_macro.h)(0x525AC4AC)
+I (E:\WorkSpace\stm32_test\core\stm32f10x_nvic.h)(0x525AC3F8)
+I (E:\WorkSpace\stm32_test\core\jpstm32_gpio.h)(0x54C1F785)
+I (E:\WorkSpace\stm32_test\core\jpstm32_delay.h)(0x5423BFB8)

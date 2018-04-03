@@ -1,0 +1,10 @@
+.\obj\jpstm32_beep.o: devices\jpstm32_beep.c
+.\obj\jpstm32_beep.o: devices\jpstm32_beep.h
+.\obj\jpstm32_beep.o: .\core\jpstm32_common.h
+.\obj\jpstm32_beep.o: .\core\stm32f10x_map.h
+.\obj\jpstm32_beep.o: .\core\stm32f10x_conf.h
+.\obj\jpstm32_beep.o: .\core\stm32f10x_type.h
+.\obj\jpstm32_beep.o: .\core\cortexm3_macro.h
+.\obj\jpstm32_beep.o: .\core\stm32f10x_nvic.h
+.\obj\jpstm32_beep.o: .\core\jpstm32_gpio.h
+.\obj\jpstm32_beep.o: .\core\jpstm32_delay.h

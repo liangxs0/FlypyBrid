@@ -1,0 +1,14 @@
+.\obj\touch.o: devices\touch.c
+.\obj\touch.o: devices\touch.h
+.\obj\touch.o: .\core\jpstm32_common.h
+.\obj\touch.o: .\core\stm32f10x_map.h
+.\obj\touch.o: .\core\stm32f10x_conf.h
+.\obj\touch.o: .\core\stm32f10x_type.h
+.\obj\touch.o: .\core\cortexm3_macro.h
+.\obj\touch.o: .\core\stm32f10x_nvic.h
+.\obj\touch.o: devices\jpstm32_lcd.h
+.\obj\touch.o: .\core\jpstm32_gpio.h
+.\obj\touch.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\touch.o: .\core\jpstm32_delay.h
+.\obj\touch.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\touch.o: D:\Keil5\ARM\ARMCC\Bin\..\include\math.h

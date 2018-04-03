@@ -1,0 +1,15 @@
+.\obj\jpstm32_lcd.o: devices\jpstm32_lcd.c
+.\obj\jpstm32_lcd.o: devices\jpstm32_lcd.h
+.\obj\jpstm32_lcd.o: .\core\jpstm32_gpio.h
+.\obj\jpstm32_lcd.o: .\core\jpstm32_common.h
+.\obj\jpstm32_lcd.o: .\core\stm32f10x_map.h
+.\obj\jpstm32_lcd.o: .\core\stm32f10x_conf.h
+.\obj\jpstm32_lcd.o: .\core\stm32f10x_type.h
+.\obj\jpstm32_lcd.o: .\core\cortexm3_macro.h
+.\obj\jpstm32_lcd.o: .\core\stm32f10x_nvic.h
+.\obj\jpstm32_lcd.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\jpstm32_lcd.o: devices\jpstm32_lcd_font.h
+.\obj\jpstm32_lcd.o: .\core\jpstm32_delay.h
+.\obj\jpstm32_lcd.o: .\core\jpstm32_usart.h
+.\obj\jpstm32_lcd.o: .\core\jpstm32_nvic.h
+.\obj\jpstm32_lcd.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h

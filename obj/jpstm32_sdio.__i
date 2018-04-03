@@ -1,0 +1,5 @@
+-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I.\core -I.\devices -I.\app -I.\boot -I.\app\RES\Num -I.\app\RES\Pic 
+-I "D:\Program Files\Keil\ARM\RV31\INC" 
+-I "D:\Program Files\Keil\ARM\CMSIS\Include" 
+-I "D:\Program Files\Keil\ARM\Inc\ST\STM32F10x" 
+-o ".\obj\jpstm32_sdio.o" --omf_browse ".\obj\jpstm32_sdio.crf" --depend ".\obj\jpstm32_sdio.d" "devices\jpstm32_sdio.c"

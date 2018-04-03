@@ -1,0 +1,15 @@
+.\obj\dma.o: devices\dma.c
+.\obj\dma.o: devices\dma.h
+.\obj\dma.o: .\core\jpstm32_common.h
+.\obj\dma.o: .\core\stm32f10x_map.h
+.\obj\dma.o: .\core\stm32f10x_conf.h
+.\obj\dma.o: .\core\stm32f10x_type.h
+.\obj\dma.o: .\core\cortexm3_macro.h
+.\obj\dma.o: .\core\stm32f10x_nvic.h
+.\obj\dma.o: .\core\jpstm32_usart.h
+.\obj\dma.o: .\core\jpstm32_nvic.h
+.\obj\dma.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h
+.\obj\dma.o: devices\jpstm32_lcd.h
+.\obj\dma.o: .\core\jpstm32_gpio.h
+.\obj\dma.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\obj\dma.o: .\core\jpstm32_delay.h

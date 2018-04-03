@@ -1,0 +1,13 @@
+.\obj\24cxx.o: devices\24cxx.c
+.\obj\24cxx.o: devices\24cxx.h
+.\obj\24cxx.o: .\core\jpstm32_common.h
+.\obj\24cxx.o: .\core\stm32f10x_map.h
+.\obj\24cxx.o: .\core\stm32f10x_conf.h
+.\obj\24cxx.o: .\core\stm32f10x_type.h
+.\obj\24cxx.o: .\core\cortexm3_macro.h
+.\obj\24cxx.o: .\core\stm32f10x_nvic.h
+.\obj\24cxx.o: devices\iic.h
+.\obj\24cxx.o: .\core\jpstm32_delay.h
+.\obj\24cxx.o: .\core\jpstm32_usart.h
+.\obj\24cxx.o: .\core\jpstm32_nvic.h
+.\obj\24cxx.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h

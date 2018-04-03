@@ -1,0 +1,10 @@
+.\obj\led.o: devices\led.c
+.\obj\led.o: devices\led.h
+.\obj\led.o: .\core\jpstm32_gpio.h
+.\obj\led.o: .\core\jpstm32_common.h
+.\obj\led.o: .\core\stm32f10x_map.h
+.\obj\led.o: .\core\stm32f10x_conf.h
+.\obj\led.o: .\core\stm32f10x_type.h
+.\obj\led.o: .\core\cortexm3_macro.h
+.\obj\led.o: .\core\stm32f10x_nvic.h
+.\obj\led.o: .\core\jpstm32_delay.h

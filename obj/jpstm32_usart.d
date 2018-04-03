@@ -1,0 +1,10 @@
+.\obj\jpstm32_usart.o: core\jpstm32_usart.c
+.\obj\jpstm32_usart.o: core\jpstm32_usart.h
+.\obj\jpstm32_usart.o: core\jpstm32_common.h
+.\obj\jpstm32_usart.o: .\core\stm32f10x_map.h
+.\obj\jpstm32_usart.o: .\core\stm32f10x_conf.h
+.\obj\jpstm32_usart.o: .\core\stm32f10x_type.h
+.\obj\jpstm32_usart.o: .\core\cortexm3_macro.h
+.\obj\jpstm32_usart.o: .\core\stm32f10x_nvic.h
+.\obj\jpstm32_usart.o: core\jpstm32_nvic.h
+.\obj\jpstm32_usart.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h

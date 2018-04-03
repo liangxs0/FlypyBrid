@@ -1,0 +1,12 @@
+.\obj\fsmc.o: devices\fsmc.c
+.\obj\fsmc.o: devices\fsmc.h
+.\obj\fsmc.o: .\core\jpstm32_gpio.h
+.\obj\fsmc.o: .\core\jpstm32_common.h
+.\obj\fsmc.o: .\core\stm32f10x_map.h
+.\obj\fsmc.o: .\core\stm32f10x_conf.h
+.\obj\fsmc.o: .\core\stm32f10x_type.h
+.\obj\fsmc.o: .\core\cortexm3_macro.h
+.\obj\fsmc.o: .\core\stm32f10x_nvic.h
+.\obj\fsmc.o: .\core\jpstm32_usart.h
+.\obj\fsmc.o: .\core\jpstm32_nvic.h
+.\obj\fsmc.o: D:\Keil5\ARM\ARMCC\Bin\..\include\stdio.h

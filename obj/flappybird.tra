@@ -1,0 +1,39 @@
+*** Creating Trace Output File '.\obj\flappybird.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\game.o"'
+### List of Objects: adding '".\obj\font_num.o"'
+### List of Objects: adding '".\obj\startup_stm32f10x_hd.o"'
+### List of Objects: adding '".\obj\jpstm32_delay.o"'
+### List of Objects: adding '".\obj\jpstm32_gpio.o"'
+### List of Objects: adding '".\obj\jpstm32_nvic.o"'
+### List of Objects: adding '".\obj\jpstm32_sysclk.o"'
+### List of Objects: adding '".\obj\jpstm32_usart.o"'
+### List of Objects: adding '".\obj\jpstm32_lcd.o"'
+### List of Objects: adding '".\obj\fsmc.o"'
+### List of Objects: adding '".\obj\dma.o"'
+### List of Objects: adding '".\obj\led.o"'
+### List of Objects: adding '".\obj\touch.o"'
+### List of Objects: adding '".\obj\timer.o"'
+### List of Objects: adding '".\obj\adc.o"'
+### List of Objects: adding '".\obj\jpstm32_key.o"'
+### List of Objects: adding '".\obj\iic.o"'
+### List of Objects: adding '".\obj\24cxx.o"'
+### List of Objects: adding '".\obj\jpstm32_beep.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\obj\main.o" ".\obj\game.o" ".\obj\font_num.o" ".\obj\startup_stm32f10x_hd.o" ".\obj\jpstm32_delay.o" ".\obj\jpstm32_gpio.o" ".\obj\jpstm32_nvic.o" ".\obj\jpstm32_sysclk.o" ".\obj\jpstm32_usart.o" ".\obj\jpstm32_lcd.o" ".\obj\fsmc.o" ".\obj\dma.o" ".\obj\led.o" ".\obj\touch.o" ".\obj\timer.o" ".\obj\adc.o" ".\obj\jpstm32_key.o" ".\obj\iic.o" ".\obj\24cxx.o" ".\obj\jpstm32_beep.o" 
+--strict --scatter ".\obj\flappybird.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\lst\flappybird.map" -o .\obj\flappybird.axf### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\obj\flappybird.axf'
+### ADS-LD Command File: '.\obj\flappybird.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\obj\flappybird.lnp', Handle=0x00000964
+### Writing '.lnp' file
+### ADS-LD Command file '.\obj\flappybird.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.

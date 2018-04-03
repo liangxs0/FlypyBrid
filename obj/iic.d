@@ -1,0 +1,9 @@
+.\obj\iic.o: devices\iic.c
+.\obj\iic.o: devices\iic.h
+.\obj\iic.o: .\core\jpstm32_common.h
+.\obj\iic.o: .\core\stm32f10x_map.h
+.\obj\iic.o: .\core\stm32f10x_conf.h
+.\obj\iic.o: .\core\stm32f10x_type.h
+.\obj\iic.o: .\core\cortexm3_macro.h
+.\obj\iic.o: .\core\stm32f10x_nvic.h
+.\obj\iic.o: .\core\jpstm32_delay.h
